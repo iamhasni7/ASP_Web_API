@@ -11,6 +11,7 @@ namespace ASP_Web_API.Controllers
     {
         public string[] myEmployees = { "Ali", "Usman", "Hamza" };
 
+        //GET Method
         [HttpGet]
         public string[] GetEmployees()
         {
